@@ -39,7 +39,20 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
+  <style>
+    .img-box {
+      width: 100%;
+      height: 250px; /* bebas sesuai kotak */
+      overflow: hidden;
+    }
 
+    .img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* penting */
+      display: block;
+    }
+  </style>
   <body>
     <!-- Spinner Start -->
     <div
@@ -358,120 +371,165 @@
         <div class="section-title text-center">
           <h1 class="display-5 mb-5">Projek Kami</h1>
         </div>
-        <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">General Carpentry</p>
-                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img\WhatsApp Image 2025-11-23 at 15.02.09.jpeg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">General Carpentry</p>
-                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">General Carpentry</p>
-                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                            <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="row g-4">
+          <div
+            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/IMG-20251114-WA0058.jpg"
+                  alt=""
+                />
+              </div>
             </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img\IMG-20251114-WA0062.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/IMG-20251114-WA0063.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/IMG-20251114-WA0069.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/IMG-20251114-WA0072.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/IMG-20251114-WA0075.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/IMG-20251114-WA0076.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/IMG-20251114-WA0077.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/WhatsApp Image 2025-11-23 at 15.02.08.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/WhatsApp Image 2025-11-23 at 15.02.09.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="rounded overflow-hidden">
+              <div class="position-relative overflow-hidden">
+                <img
+                  class="img-fluid w-100"
+                  src="img/WhatsApp Image 2025-11-23 at 15.02.10.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Projects End -->
-
-    <!-- Testimonial Start -->
-    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Testimonial</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="https://lh3.googleusercontent.com/a-/ALV-UjWVbZBDkaIYCSTxkCQu3eSceLBIPXT_5VBuP5e9GmX7SlQhwXU8=w72-h72-p-rp-mo-ba2-br100" style="width: 90px; height: 90px;">
-                    <div class="testimonial-text text-center p-4">
-                        <p>Puas pesan kusen pintu disni, pekerjaannya rapih, tepat waktu, soal harga pass dng isi dompet. Pokoknya bintang 5, rekomended.</p>
-                        <h5 class="mb-1">Agus Suhandi</h5>
-                        <span class="fst-italic">Pengguna Google</span>
-                    </div>
-                </div>
-        </div>
-    </div> -->
-    <!-- Testimonial End -->
 
     <!-- Quote Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
