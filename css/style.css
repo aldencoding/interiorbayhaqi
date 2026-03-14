@@ -6,23 +6,33 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #555555;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   color: var(--dark);
 }
 
 .font-serif {
-  font-family: 'Playfair Display', serif !important;
+  font-family: "Playfair Display", serif !important;
 }
 
 .font-sans {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .text-primary {
@@ -75,11 +85,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* Masonry look items logic */
-.elegant-grid-item:nth-child(3n+1) {
+.elegant-grid-item:nth-child(3n + 1) {
   grid-row: span 2;
 }
 
-.elegant-grid-item:nth-child(4n+2) {
+.elegant-grid-item:nth-child(4n + 2) {
   grid-column: span 2;
   grid-row: span 2;
 }
@@ -97,7 +107,10 @@ h1, h2, h3, h4, h5, h6,
 
 .elegant-overlay {
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(43, 38, 35, 0.4);
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -124,15 +137,19 @@ h1, h2, h3, h4, h5, h6,
 
 .process-step:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
   border-color: var(--primary);
 }
 
 .process-number {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3rem;
   color: var(--light); /* Very subtle */
-  text-shadow: -1px -1px 0 var(--primary), 1px -1px 0 var(--primary), -1px 1px 0 var(--primary), 1px 1px 0 var(--primary);
+  text-shadow:
+    -1px -1px 0 var(--primary),
+    1px -1px 0 var(--primary),
+    -1px 1px 0 var(--primary),
+    1px 1px 0 var(--primary);
   position: absolute;
   top: 10px;
   right: 20px;
@@ -780,16 +797,21 @@ h1, h2, h3, h4, h5, h6,
   color: var(--primary);
 }
 
+.maps {
+  width: 350px;
+  height: 450px;
+}
+
 /* Mobile Typography & Layout Polish */
 @media (max-width: 768px) {
   .display-3 {
     font-size: 2.5rem !important;
   }
-  
+
   .display-5 {
     font-size: 2rem !important;
   }
-  
+
   .section-title h1 {
     font-size: 2rem !important;
     padding: 0 30px;
@@ -802,14 +824,19 @@ h1, h2, h3, h4, h5, h6,
   .elegant-grid {
     gap: 15px;
   }
-  
+
   .btn {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
     font-size: 0.9rem !important;
   }
-  
+
   .parallax {
     background-attachment: scroll !important; /* Better performance on mobile iOS/Android */
+  }
+
+  .maps {
+    width: 100%;
+    height: 450px;
   }
 }
